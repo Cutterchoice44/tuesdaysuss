@@ -177,7 +177,6 @@ section h2 {
   display: block;
   margin: 1rem auto;
 }
-
 /* WEEKLY SCHEDULE */
 .schedule {
   background: #111;
@@ -329,13 +328,14 @@ section h2 {
 }
 
 /* PLAYER HEIGHT OVERRIDES (desktop only) */
-.live-player iframe,
-.player-container iframe {\n  height: 90vh !important;
-  margin-top: 10px !important;
-}
 
 /* ─── MOBILE OVERWRITES ────────────────────────────────────────────────────── */
 @media (max-width: 768px) {
+  .live-player iframe,
+  .live-player audio {
+    height: 220px !important;
+    max-height: 40vh;
+  }
   /* Layout */
   header {
     flex-direction: column;
