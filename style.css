@@ -18,7 +18,7 @@ html, body {
   background: var(--bg-dark);
   color: var(--text-light);
   font-family: Arial, sans-serif;
-  line-height: 1.4;
+  line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -51,7 +51,7 @@ header .title h1 {
 header .title .tagline {
   font-size: 1.2rem;
   color: var(--brand-teal);
-  margin-top: 0.3rem;
+  margin-top: 0.1rem;
 }
 
 /* ─── GRID LAYOUT ─────────────────────────────────────────────────────────── */
@@ -86,7 +86,7 @@ header .title h1 {
   }
   }
   header .title .tagline {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   .grid-container {
     grid-template-columns: 1fr 1.5fr 1fr 1fr;
@@ -112,7 +112,7 @@ section {
 }
 
 section h2 {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.rem;
   color: var(--brand-teal);
   text-align: center;
 }
